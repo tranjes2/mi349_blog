@@ -50,13 +50,12 @@ a:hover {
 
 .nav li {
     color: #fff;
-    display: inline-block
+    display: inline-block;
 }
 
 section{
     margin: 30px;
 }
-
 
 p {
     line-height: 1.4em;
@@ -125,7 +124,37 @@ form {
 }
 
 @media (max-width: 400px) {
-    h1 {
-        color: blue;
+    #articles {
+        display: block;
+    }
+    .nav li {
+        display: block;
+    }
+    .header h1 {
+        font-size: 2em;
+    }
+    img {
+        max-width: 100%;
+        padding-bottom: 10px;
+    }
+    section {
+        margin: 10px;
+    }
+    article:nth-of-type(1) {
+        padding-right: 0;
+    }
+    article:nth-of-type(2) {
+        padding-left: 0;
+    }
+    #about {
+        margin: 10px;
+        padding-right: 0px;
+    }
+    h3 {
+        font-size: 1em;
+    }
+    h2 {
+        font-size: 1.6em;
+        margin: 0 0 5px 0;
     }
 }
